@@ -1,5 +1,5 @@
 ﻿
-namespace vize_son
+namespace deneme
 {
     partial class Form1
     {
@@ -33,12 +33,12 @@ namespace vize_son
             this.label_derece = new System.Windows.Forms.Label();
             this.label_durum = new System.Windows.Forms.Label();
             this.picture_bulutlu = new System.Windows.Forms.PictureBox();
-            this.picture_günesli = new System.Windows.Forms.PictureBox();
+            this.picture_gunesli = new System.Windows.Forms.PictureBox();
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.textBox2 = new System.Windows.Forms.TextBox();
             this.textBox3 = new System.Windows.Forms.TextBox();
             ((System.ComponentModel.ISupportInitialize)(this.picture_bulutlu)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.picture_günesli)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picture_gunesli)).BeginInit();
             this.SuspendLayout();
             // 
             // label_yer
@@ -78,15 +78,15 @@ namespace vize_son
             this.picture_bulutlu.TabIndex = 4;
             this.picture_bulutlu.TabStop = false;
             // 
-            // picture_günesli
+            // picture_gunesli
             // 
-            this.picture_günesli.BackColor = System.Drawing.Color.Transparent;
-            this.picture_günesli.Image = global::vize_son.Properties.Resources.Sunny_icon;
-            this.picture_günesli.Location = new System.Drawing.Point(654, 12);
-            this.picture_günesli.Name = "picture_günesli";
-            this.picture_günesli.Size = new System.Drawing.Size(94, 88);
-            this.picture_günesli.TabIndex = 5;
-            this.picture_günesli.TabStop = false;
+            this.picture_gunesli.BackColor = System.Drawing.Color.Transparent;
+            this.picture_gunesli.Image = global::vize_son.Properties.Resources.Sunny_icon;
+            this.picture_gunesli.Location = new System.Drawing.Point(654, 12);
+            this.picture_gunesli.Name = "picture_gunesli";
+            this.picture_gunesli.Size = new System.Drawing.Size(94, 88);
+            this.picture_gunesli.TabIndex = 5;
+            this.picture_gunesli.TabStop = false;
             // 
             // textBox1
             // 
@@ -122,7 +122,7 @@ namespace vize_son
             this.Controls.Add(this.textBox3);
             this.Controls.Add(this.textBox2);
             this.Controls.Add(this.textBox1);
-            this.Controls.Add(this.picture_günesli);
+            this.Controls.Add(this.picture_gunesli);
             this.Controls.Add(this.picture_bulutlu);
             this.Controls.Add(this.label_durum);
             this.Controls.Add(this.label_derece);
@@ -132,7 +132,7 @@ namespace vize_son
             this.Text = "Form1";
             this.Load += new System.EventHandler(this.Form1_Load);
             ((System.ComponentModel.ISupportInitialize)(this.picture_bulutlu)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.picture_günesli)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picture_gunesli)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -143,7 +143,7 @@ namespace vize_son
         private System.Windows.Forms.Label label_derece;
         private System.Windows.Forms.Label label_durum;
         private System.Windows.Forms.PictureBox picture_bulutlu;
-        private System.Windows.Forms.PictureBox picture_günesli;
+        private System.Windows.Forms.PictureBox picture_gunesli;
         private System.Windows.Forms.TextBox textBox1;
         private System.Windows.Forms.TextBox textBox2;
         private System.Windows.Forms.TextBox textBox3;
